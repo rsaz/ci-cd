@@ -5,5 +5,5 @@ module.exports = {
     testPathIgnorePatterns: ["/node_modules/"],
     collectCoverage: true,
     coverageDirectory: "coverage",
-    coverageReporters: ["json", "text", "html", "lcov"],
+    coverageReporters: ["lcov"],
 };
