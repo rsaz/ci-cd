@@ -4,6 +4,7 @@ module.exports = {
     testMatch: ["**/test/**/*.test.ts"],
     testPathIgnorePatterns: ["/node_modules/", "/dist/"],
     collectCoverage: true,
+    collectCoverageFrom: ["src/**/*.ts"],
     coverageDirectory: "coverage",
     coverageReporters: ["json", "lcov", "text", "clover", "html"],
 };

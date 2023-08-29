@@ -1,4 +1,3 @@
-import e from "express";
 import { User } from "../models/user";
 
 function userCreate({ name, email, password}: User): User {
